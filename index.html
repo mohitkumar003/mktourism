@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MK Tourism</title>
+    <link rel="stylesheet" href="CSSStyling.css">
+    <link rel="stylesheet" media="screen and (max-width: 1030px)" href="phone.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Festive&family=Macondo&family=Shizuru&family=Syne+Tactile&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY9hKADjsLKuSQ4NyXPPBmKz3_Vkk3k8B7TQ&usqp=CAU" alt="Logo">
+        </div>
+        <ul>
+            <li class="item"><a href="#home"> <strong> Home</strong></a></li>
+            <li class="item"><a href="#services1"><strong>Services</strong></a></li>
+            <li class="item"><a href="#AboutUsSection"><strong>About us</strong></a></li>
+            <li class="item"><a href="#contactUs"><strong>Contact Us</strong></a></li>
+        </ul>
+    </nav>
+    <section id="User">
+    
+    <button class="btn__purple" id="triggerLogin">LogIn</button>
+    <div class="modal__wrapper">
+        <div class="modal__container">
+            <button class="close">&times;</button>
+            <h2>Login Now</h2>
+            <label for="UserEmail">Email:</label><br>
+        <input type="email" name="UserEmail" id="UserEmail"><br>
+        <label for="password">Enter Password:</label><br>
+        <input type="password" name="password" id="password"><br>
+            <div class="action">
+                <button class="btn__purple">Login</button>
+            </div>
+        </div>
+    </div>
+    <script src="./TryingJS2.js"></script>
+
+    <button class="btn__purple2" id="triggerSignup">Signup</button>
+    <div class="modal__wrapper2">
+        <div class="modal__container2">
+            <button class="close2">&times;</button>
+            <h2>Signup Now</h2>
+            <label for="UserEmail2">Email:</label><br>
+        <input type="email" name="UserEmail2" id="UserEmail2"><br>
+        <label for="password2">Enter Password:</label><br>
+        <input type="password" name="password2" id="password2"><br>
+            <div class="action">
+                <button class="btn__purple">Signup</button>
+            </div>
+        </div>
+    </div>
+    <script src="./signupJS.js"></script>
+        
+    </section>
+    
+    
+    <section id="home">
+        <h2 style="width: 784px; text-align: center; ">A person does not grow from the ground like a vine or a tree, one is not     part of a plot of land. Mankind has legs so it can wander. </h2>
+        <h3>Not Sure Where to travel??<br>Ask Our Travel Agents </h3>
+        <button class="btn__purple3" id="Asknow">Asknow</button>
+    <div class="modal__wrapper3">
+        <div class="modal__container3">
+            <button class="close3">&times;</button>
+            <h2>Let us Help u with finding a right place for vacation...</h2>
+            <form action="">
+                <label for="Place">I stay in:</label><br>
+                <select name="place" id="place">
+                    <option value="select" selected></option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Banglore">Banglore</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Lucknow">Lucknow</option>
+                </select><br>
+                <label for="climate">Climate I like:</label><br>
+                <select name="climate" id="climate">
+                    <option value="select" selected></option>
+                    <option value="Sunny">hot and dry</option>
+                    <option value="Cold">cold and cloudy</option>
+                    <option value="aaa">warm and humid</option>
+                    <option value="bbb">moderate</option>
+                </select><br>
+                <label for="que3">How many persons i am travelling with</label><br>
+                <select name="que3" id="que3">
+                    <option value="just me" selected></option>
+                    <option value="one">1</option>
+                    <option value="two">2</option>
+                    <option value="three">3</option>
+                    <option value="more than 3">3+</option>
+                </select><br>
+            </form>
+            <div class="action">
+                <button class="btn__purple3">search</button>
+            </div>
+        </div>
+    </div>
+    <script src="./ExpertAdvice.js"></script>
+        <button class="btn">.  <a href="#services">Travel Now </a></button>
+    </section>
+    <section class="services-container" id="services1"><br>
+        <h1 style="font-size: 2rem; margin: 2px auto;"> <strong>Our Services</strong> </h1>
+        <div id="services">
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgEJzqDkViTSGnbPD8idMYTXlzwlChlNHjUQ&usqp=CAU" alt="Train">
+                <h1>Trains</h1>
+                <p>India has many spectacular and unforgettable rail journeys in the world. Here you experience a simple way to find out everything you need to know in one easy place. There's no better way to enjoy India's outback, cities, coastal towns and regional areas in comfort. </p>
+
+                <button class="btn__purple4" id="BookNow">BookNow</button>
+    <div class="modal__wrapper4">
+        <div class="modal__container4">
+            <button class="close4">&times;</button>
+            <h2>Book Now</h2>
+            <form action="">
+                <div class="BusInfo">
+                    <label for="Boarding">Boarding Point:</label><br>
+                    <select name="Boarding" id="Boarding"><br>
+                        <option value="select" selected></option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Banglore">Banglore</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Lucknow">Lucknow</option>
+                    </select><br>
+                    <label for="Destination">Destination:</label><br>
+                    <select name="Destination" id="Destination">
+                        <option value="select" selected></option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Banglore">Banglore</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Lucknow">Lucknow</option>
+                    </select><br>
+                    <label for="Date">Date of Travel:</label><br>
+                    <input type="date" name="Date" id="Date"><br>
+                </div>
+            </form>
+            <div class="action">
+                <button class="btn__purple">search</button>
+            </div>
+        </div>
+    </div>
+    <script src="./BookingJS.js"></script>
+            </div>
+            <div class="box" >
+                <img src="https://c8.alamy.com/zooms/9/6838246bab4f44cab12c73138f996066/2dywn84.jpg" alt="bus" style="height: 157px; width: 272px; ">
+                <h1>Buses</h1>
+                <p>There are many well known travel agencies that provide bus services in the country.Indian Bus Services bus provides comfortable journeys and makes sure that passengers reach their destinations on the stipulated time. . You can book a Indian Bus Services bus easily on MK Tourism. The online booking process is very simple and hardly takes much time.</p>
+                <button class="btn__purple4" id="BookNow">BookNow</button>
+    <div class="modal__wrapper4">
+        <div class="modal__container4">
+            <button class="close4">&times;</button>
+            <h2>Book Now</h2>
+            <form action="">
+                <div class="BusInfo">
+                    <label for="Boarding">Boarding Point:</label><br>
+                    <select name="Boarding" id="Boarding"><br>
+                        <option value="select" selected></option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Banglore">Banglore</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Lucknow">Lucknow</option>
+                    </select><br>
+                    <label for="Destination">Destination:</label><br>
+                    <select name="Destination" id="Destination">
+                        <option value="select" selected></option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Banglore">Banglore</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Lucknow">Lucknow</option>
+                    </select><br>
+                    <label for="Date">Date of Travel:</label><br>
+                    <input type="date" name="Date" id="Date"><br>
+                </div>
+            </form>
+            <div class="action">
+                <button class="btn__purple">search</button>
+            </div>
+        </div>
+    </div>
+    <script src="./BookingJS.js"></script>
+            </div>
+            <div class="box">
+                <img src="https://thumbs.dreamstime.com/b/white-passenger-plane-fly-blue-sky-sketch-68478883.jpg" alt="flight" style="height: 150px; width: 250px;">
+                <h1>Flights</h1>
+                <p>Save money on airfare by searching for cheap flight tickets on MK Tourism. MK Tourism searches for flight deals on hundreds of airline ticket sites to help you find the cheapest flights. Whether you are looking for a last-minute flight or a cheap plane ticket for a later date, you can find the best deals faster at MK Tourism.</p>
+                <button class="btn__purple4" id="BookNow">BookNow</button>
+    <div class="modal__wrapper4">
+        <div class="modal__container4">
+            <button class="close4">&times;</button>
+            <h2>Book Now</h2>
+            <form action="">
+                <div class="BusInfo">
+                    <label for="Boarding">Boarding Point:</label><br>
+                    <select name="Boarding" id="Boarding"><br>
+                        <option value="select" selected></option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Banglore">Banglore</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Lucknow">Lucknow</option>
+                    </select><br>
+                    <label for="Destination">Destination:</label><br>
+                    <select name="Destination" id="Destination">
+                        <option value="select" selected></option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Banglore">Banglore</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Lucknow">Lucknow</option>
+                    </select><br>
+                    <label for="Date">Date of Travel:</label><br>
+                    <input type="date" name="Date" id="Date"><br>
+                </div>
+            </form>
+            <div class="action">
+                <button class="btn__purple">search</button>
+            </div>
+        </div>
+    </div>
+    <script src="./BookingJS.js"></script>
+            </div>
+        </div>
+    </section>
+    <section id="AboutUsSection">
+        <h1 style="font-size: 2rem; margin: 2px auto;" > <strong>About Us</strong></h1>
+        <br><br><br>
+        <p><strong> Thanks to its incomparable cultural and historical heritage, and landscapes as varied as they are splendid, India is a destination that never disappoints! And Hyderabad (HYD) is no exception! If you want a relaxing holiday without setting aside your favourite activities, then you will love Hyderabad in Telangana! Attracting both museum and art gallery enthusiasts, shopaholics, green parks lovers and night owls, this is indeed a pleasant destination that is sure to please all travellers, young and old alike. Its proximity to other top Indian destinations will also allow you, if you so wish, to combine your trip to Hyderabad with other visits, for a holiday full of discoveries.</strong></p>
+
+        <p><strong>Hyderabad has an eclectic mix of architecture which makes it fascinating to navigate around. From the rough-around-the-edges old town, to the luxury palaces of by gone kings, right through to the ultramodern buildings of the newly formed ‘HITEC City’, there is a style for everyone. You’ll want to make sure your camera is full charged for this city!. Charminar a monument and mosque built around 1591, is the focal point of Hyderabad. There are many theories of why it was built, but one of the most widely accepted is that it was to commemorate the eradication of the plague. Today it is open to the public and you can climb up the tower steps to get 360 degree sweeping views across the city, with the bustling market beneath.</strong></p>
+        <p><strong>The MK tourism multi-destination search engine allows you to book your cheap flight/train to Hyderabad but also to add other stops to your trip, and to even hire a car on-site. India lends itself perfectly to road trips, so why not take advantage? With Mk Tourism, you can be sure to find the best prices for your flight/train tickets to Hyderabad, your hotel reservations as well as many other services which will enhance your holiday.</strong></p>
+        <br><br><br>
+    </section>
+    <section id="contactUs">
+        <h1>Contact Us</h1>
+        <div class="contact">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name:</label><br>
+                    <input type="text" name="name" id="name" placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label><br>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone:</label><br>
+                    <input type="phone" name="phone" id="phone" placeholder="Enter your phone number">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label><br>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+        <div class="queries" style="display: flex;">
+            <p>For Queries: &emsp; </p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3r3QNQSjd3d-snnf32_Io8xM4wgIm4mDF9A&usqp=CAU" alt="Gmail:" style="height:30px; width: 20px; margin: auto; ">
+            <p> &ensp; mktourism@gmail.com &emsp; </p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp68LhxmKiDEJnNrKD4lCUKHGvA5lMMVS1qg&usqp=CAU" alt="Phone:" style="height:30px; width: 20px; margin: auto;">
+            <p> &ensp;040-23021231 &emsp;</p>
+        </div>
+        <div class="follow" style="display: flex;">
+            <p>Follow us at:&emsp;</p>
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8PEBAQDxAPDw8PDw8PDw8QDw8QDw8PFhYXFxYWFhkZHykhGRsmHBYWJjIiKCosLy8vGCA1OjUtOSkuLywBCgoKDg0OGxAQHC4mICYuLi45Li4sLi4sLC4uLi4uLi4uLC4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLv/AABEIAMABBgMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAAAQUCBAYDB//EAEEQAAICAQEFBAgDBgENAAAAAAABAgMRBAUGEiExQVFhcRMiMlKBkcHRI6GxFEJTYnLwogcVFjM0Q2N0gpKys8L/xAAaAQEAAgMBAAAAAAAAAAAAAAAAAQQDBQYC/8QAMhEAAgECAgcHBAIDAQAAAAAAAAECAxEEMQUSIUFRYbETMnGBkcHRFCLh8CNSQlOhFf/aAAwDAQACEQMRAD8A+4gAAAAAAAAAgkAAAAAAAAAAAAAAAAAgqdZvDpasp2cTXZBOX59D1GEpu0Vc8VKsKavNpLm7FuDl57509lc35uC+rJq3ypftV2R8nGRn+jr/ANWVf/Rwv91/34OnBWaLbmmuwoWJSfSMvUb8s9SyyYJRlF2krFuE4zWtF3XIkEA8nokEZI4lnHb3doBkAAAAAAAAAAAAAAAedk1FOTeEk233JHoUO+Gq9HppJPDsko/DrL8l+Z7pwc5qK3sxVqipU5Te5XNzZG1q9VFyhycXiUX1S7H5MscnynZ+tnRYrK3iS6rslHtT8D6LsjaleqhxQ5SWOODfOL+q8S3jMG6L1o93oUdH6QWIWrLvdeaLIAFE2YAAAAAAAAANHam0a9NDjsfhGK9qT7keus1MaYSsm8Rgsv6JeJ822lr56ix2T8ox7Ix7Ei5g8K68rvur9sa7SGOWGhZd55fJs7V25dqXhvgr7IRfLHj3lWiCToIU4wWrFWRylSrOrLWm7shgyMT2YwXex94bqGoybtq91v1or+V/QpQY6lKNSOrNXM1GtOjLWg7M+p6PWV3QVlck4v4Yfan3M1dZtzTU+1bFv3YLjl+R834nhrLw+qzyfwINbHRUb7ZO3h7m3lpyersir8b+35Oo2jvfOWY0R4F78sOXwXRfmXW7GmnGp22uUrbmpNyeXwr2V8ufxOc3Z2G75Kyxfgxfb/vH3eXed3JpLLwkvgitjHSprsqS8X7XLuj1Wqv6is/BZLx/JmDzhNSSaeU+aa5po9DXm2AAAAAAAAAAAABx/wDlAny08e+Vj+XCvqdgclv7X6tEuxSnH5pP/wCS3gbfUR8+jKGlL/Szty6o4099Hq7KZqdcnGS+TXc12o8QdG0mrM4+MnF3WZ9D2Jt+vUpReIW9sG+Uv6e/yLpHyOMmmmspp8muTTOo2PvVKGIajM49PSL215rt/U0uJ0c4/dS2rhvOjwel4y+ytsfHd5/vodqDX02qhbFSrkpxfan+vce+TVtW2M3aaauiQACQQSQAcbvzrm5Qoi+SXHPxb9lfqcob+3r+PU3S/wCI4ryj6q/Q0Dp8JT7OjFefqcTjq3a4iUudvJAkgyLBVIBJAJJAAIMTZ0U6oyzbGU0ukItRUv6n3eR4EJHmUdZWPUZarudFbvbako0111RSwlhyaXh0SPTY2nv10+O+cpUweWm8KcvdS6eZpbA2HPUvilmNKfrS7ZeEfud9RRGuKhBKMYrCS7DT4mpSo/ZSS1uObXnxOgwVGvibVK8nq7lufkt3U9EsGQBqjfAAAAAAAAAAAAAqN59H6bTTSWZRxOPjjqvlktyD1CbhJSW48VKaqQcJZNWPkRJcbybKentbivwrG3B9ifbH4foVB1VKpGpFSjkzhq1KVKbhLNEEgHsxnrpdVZVLirnKEu9Pr59502g3vfJXw4v548n8YnKAwVcNTq99ee8s0MZVodx7OG70+D6Zo9r6e72LY591+rL5MsD5E2bel2tqKvYuml3cWY/J8jXVNFv/AAl6/K+Db0tOf7I+afs/k+pEHBUb36mPtKE/OLT/ACf0N2vfSX71C+E39irLR9dbk/MvR0thZZtrxRzO0F+Lb/XZ/wCTNc99ferLbLEuFTlxcOc4yeB0FO6ir8EcnUac21xfUyJMDJHo8EgBAkAAAG7sSiNmoqhNZjKeGs4zyZpFpu1HOrp/qk/8LMVd2pyfJ9DNh1etBc11PoldailGKSSWElySR6AHKndAAAAAAAAAAAAAAAAptubZ/ZZVZhxwsVmcPElw8PTv6lyc1vvp+KmE/cnh+UuX64M+GjGVVRnk/wB6lXGznChKdPNbf3yPazami1lbrnNLi7J+pJPsab5ZOQ2rsyVEusbK37NkWmn546M0jHBvKOF7F/bJ24P5OYxWN+oj/JBa3FfG8kAFsoAMBkkGJBJAIBIABBIwAAZIxMgSAZAgkgAAkkud0a+LVQfuxnL8sfUpjp9xqc2Wz92EYrzby/0K2Mlq0ZeBb0fDXxMFz6bTswAc0doAAAAAAAAAAAAAAADW1+lV1c65dJxa8n2P5myCU7O6IaTVmfKNRTKuUoSWJRbTXijyO33p2N6VemqX4kV68V+/FfVHEtHSYbEKtC+/ecZjMLLD1NV5bnxRAMjEslME4JIAIZBOBgkggyABAABAICJwASZAAgkgAkXAO73P03Bp+J9bJuXwXJfp+Zw1NTnKMY+1JqK82fUNLQq4RgukIqK+Bq9J1LQUOL6G70JRvUlUe5W9fwe4ANMdKAAAAAAAAAAAAAAAAAAQUO293YX5nXiu3t92fmux+JfnL7wbW1GltxFxdc45jxQzhrk1lNf2zPhlUdT+N2ZUxroqlesrx6czl9ds26h4shJfzdYvyaNUvLd6tVJY/DS8IfdsprrXOTk8ZfdGMV8kdBSdVr+RLyfscnXjQTvSk34r3/B5kgkzNlcGJkSLkMwJIBJBLCRBkiGAMAEEgAEkkAkmEW2kllt4SXa2QC/3O0PHc7WvVqXLuc2uXyWfmjuMFfsTQLT0xh+97U33yfX7fAsTm8VW7Wo5bsl4HZ4DD9hRUXnm/EAArlwAAAAAAAAAAAAAAAAAAFZtvZq1NTj0mvWhLufd5MsweoycWpLM8VKcakXGWTPlFtcoycZJxlF4afVMxO929sKOp9eGIWpdeya7pfc4rVaSyqXDZFxkux9viu9HQYfFRrR58DkMZgamHlt2x4/PM1ySRgtFIgEgAgxMiCSAESCAAACQQSACDpd0NmccvTzXqweK0+2fa/h/fQqdj7NlqbFBcornOXux+7PomnojXCMIrEYpJLwRrcfidWPZxzfQ3OicH2ku2lksub/HXwPUkA0p0wAAAAAAAAAAAAAAAAAAAAAAABB4anS12rhsjGa8VnHl3Gwa2r1ldKzZJRXj1fku0lXvszPM9XVetlzy+Ck1W6dUnmucoeDxKP3KHa2yf2bk7Yyk/wBxZzjvfcWe096JSzGhcC/iS9r4LsOanNybcm228tt5bZusLDEZ1JbOGy5y+OqYPKjHbxTsvTJ9CGYhkGxNUAQAQSSQASSCCQAbGg0U75qFay31fZFd78D02Zs2zUT4YLkvak/ZivH7HebL2bXpocMFzftTa9aT/vsKWKxcaKsu908TZYHR8sQ9aWyPXw+TLZmzoaetQh5yk+spd7N0A0Lbk7vM6uMVFKMckAAQegAAAAAAAAAAAAAAAAADxvs4U3wyljsisv5dpVveTTLk5STXVOEk0XRX7Q2VTevXjiXZOPKS+PaZKfZ5VE/L8mCuq1r0mr8Gv2xp2b0aZdHN/wDTj9TTu3tj+5VJ+MpJfpk0tfuxdDnU1bHu6SXw6MpLapQeJRlF90k0zaUcNhp7Yu/n7GixGOx1N2mtXml77S01e8mpnyUlWv5Fz+bKiyxyfFJuTfVtvLDMcF+FKEO6rGqq16lV3nJv99CSGSQZDCYkGeCCQYgAEAImMG3hJtvokm2XWz92tRbhyXoo98/a+Efvgx1KsKavJ2M1GhUqu0E2UuC/2Tu1ZbiVua6/d/ekvodFs3YdFGGlxz9+XN/DuLVGqr6Rb2U9nP4N7hdDpfdW28ll5vf5HhpdNCqKhXFRiuxfq+9mwAazPabxJJWQAAJAAAAAAAAAAAAAAAAAAAAAAAAIweN+nhYsTjGa7pJM9wCGk1ZlHqd2dPP2eKt+DbXyZW27ozXsWxf9UWn+R1wLEMXWjlL12lOpo7DTzh6bOhwlm7GqXSMJeU19cHi93tX/AAn/AN9X3PoAM60jWXD0Kz0Nh3k2vNe6ZwH+j2r/AIX+Or7npDdjVPrGMfOa+mTuwHpGty9CFoXD8X6r4OPp3Qsft2Qj5Rcn9Cx0+6mnj7blZ5vhX5F+SYZ4ytL/AC9NhZp6Nw0Moeu01dLoqqv9XXCHkufzNkkFZu7uy6oqKsiCQASAAAAAAAAAAAAAAAAAAAAAaWx75W6fT2TeZ2UVTk0sZlKCb5ebN0r93f8AY9J/yun/APXEsAAAAAAAAAAAAQwDysujFwjJ4dknGC96Si5NL4Rb+BnKaWMtLLwstLL7l4nPa7YE7bJycoqErHYk3Nz4nVbWnnljDsi0ueOF9+FhHYFzdfpZ1XRqnxpT43xt2SnJyzyTSm0uvRfADo4WKSUotSi1lNNNNd6YlNLGWll4WXjL64Xe8J/I5WG69sYKEbYwUdK9PHglOChLhsjxJJc+LjTfPk128sbduwJOxyj6JQjdVbXF5k48MLINpterhTTS5rMezPIC/ssUYuUniMU5Sb7EllsmMk0muaayn3o5evdy9L1rK5J1yr4HK3gjNxhF3rPWx8Lyn73Xrxbsdk3LTxo442cFim5TlNenipZ4bMLu7Vy9VcscgC+By0t3bpSebo4za3iVubHJW8Ep8+Tg5xS8I+SVts/ZrqjwOcsK70sFGUliOF6r71nLx4gHvbtCiDmp3UxdaTsUrIJ1p8k5ZfLOV17yZa+lKTdtSUIRsk3ZBKNcs8Mnz5ReHh9uCo2jse66ycn6JRUoOrhnZXLhU4TkpOMcqUnBeunlcMUl1bw0+wpwTjw0SX7PpanKM7aJTnTLiUswWY9Uk8trhXfgAuP85afn+PTyr9K/xa+VXvvn7PNc+nMmG0tPJqMbqpSlD0kUrYNuvn66WeceT5+BRw3fuwlOyN2LHe5SlZXZO11Rq4XOPNRSWeLrlR7svY0+yLoyjKU42YrcbVOy1x1Dw1GE4yzHEcr18OT4efVgFtXrqZSjGNtcpzgrIRU4uU630lFZ5x8TaOY2bsC2uzTTnOt+grqg+GVjT4Kp1co8ll8WeJ81ziuTOnAAAAAAAAAAAAAAAAP/2Q==" alt="twiiter" style="height:30px; width: 20px; margin: auto;">
+            <p>&ensp;@mk_tourism &emsp;</p>
+            <img src="data:image/jpeg;base64,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" alt="instagram" style="height:30px; width: 20px; margin: auto;"">
+            <p>&ensp;@mk_tourism_official</p>
+        </div>
+    </section>
+    <footer>
+        Copyright &copy; www.mktourism.com All rights Reserved!
+    </footer>
+</body>
+</html>

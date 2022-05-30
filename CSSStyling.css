@@ -1,0 +1,292 @@
+*
+{
+    font-family: 'Ubuntu', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+#navbar li
+{
+    display: inline;
+    padding: 3px 3px;
+    margin: 2px 10px;
+    /* border: 2px solid black; */
+    border-radius: 24px; 
+    cursor: pointer;
+    text-align: center;
+
+
+}
+#navbar li:hover
+{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    border-radius: 9px;
+}
+#navbar li:active
+{
+    background-color: burlywood;
+    background-color: black;
+    color: white;
+    border-radius: 9px;
+}
+#navbar
+{
+    display: flex;
+    /* background-color: lightpink; */
+    /* position: relative; */
+    position: sticky;
+    /* position: absolute; */
+    top: 0px;
+    left: 0px;
+    background-color: skyblue;
+    z-index: 3;
+    margin: 0px 0px;
+}
+
+#logo
+{
+    margin: 4px;
+    padding: 3px;
+    
+}
+/* use "#logo img" not "img" */
+#logo img
+{
+    height: 37px;
+    width: 40px;
+}
+a
+{
+    text-decoration: none;
+    padding: 10px auto;
+}
+a:hover{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+#User
+{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    top: 15px;
+    z-index: 5;
+    
+
+}
+#home
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+
+    background-image:url("https://c.pxhere.com/photos/ee/99/photo-1401906.jpg!d");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+
+    margin-top: 0px;
+    /* margin: -8px -8px; */
+}
+#home h1
+{
+    font-size: 2.5rem;
+    /* font-style: ; */
+    /* margin: 7px 7px;
+    margin-top: 10px; */
+    /* margin: auto; */
+}
+#home p{
+    font-size: large;
+    margin: 5px 5px;
+}
+#home button
+{
+    margin: 10px 10px;
+    border-radius: 7px;
+    font-size: medium;
+}
+#home button:hover
+{
+    background-color: cadetblue;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+/* SERVICES STYLING */
+.services-container h1
+{
+ text-align: center;
+
+}
+#services
+{
+    display: flex;
+}
+.box
+{
+    border: 2px solid green;
+    border-radius: 28px;
+    margin: 2px 2px;
+    padding: 5px 5px;
+}
+.box img
+{
+    /* i want that images to come in the middle */
+    display: block;
+    margin: auto;
+    /* In all his images only the image are visible not their backgrounds(as in my frst image)
+    That's looking good. How can i get the other two images like that????? */
+    
+}
+#AboutUsSection
+{
+    font-size: 20px;
+    text-align: center;
+    background-image:url(https://5.imimg.com/data5/GD/YK/GLADMIN-67072172/hyderabad-city-tour-500x500.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    color: rgb(0, 0,0);
+}
+#AboutUsSection div
+{
+    display: flex;
+}
+#contactUs
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://miro.medium.com/max/1400/1*u5C-NUdjVB6MRlLa4vrOpg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+
+
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+input
+{
+    border-radius: 5px;
+    width: 333px;
+    box-shadow: 1px 1px gray;
+    background-color: cornsilk;
+}
+textarea
+{
+    border-radius: 5px;
+    width: 333px;
+    box-shadow: 4px 4px gray;
+    background-color: cornsilk;
+}
+
+/* that modal styling */
+/* *
+{
+    margin:0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased ;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+     
+} */
+.modal__wrapper, .modal__wrapper2, .modal__wrapper3,.modal__wrapper4 
+{
+    /* display: none; */
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .3s ease-in-out;
+}
+.modal__container, .modal__container2, .modal__container3, .modal__container4
+{
+    background-color: white;
+    width: 560px;
+    max-width: 90%;
+    padding: 30px;
+    border-radius: 4px;
+    position: relative;
+    transform: translateY(-100%);
+    transition: all .3s ease-in-out;
+
+}
+.close, .close2, .close3, .close4
+{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 32px;
+    
+}
+.close:hover, .close2:hover, .close3:hover, .close4:hover{
+    background-color: #6b466b;
+    color: white;
+}
+.btn__purple, .btn__purple2, .btn__purple3, .btn__purple4
+{
+    background: skyblue;
+    padding: 10px 30px;
+    margin: auto 10px;
+    color: white;
+    border-radius: 24px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn__purple:hover, .btn__purple2:hover, .btn__purple3:hover, .btn__purple4:hover
+{
+    background-color: black;
+    color: white;   
+}
+
+h2
+{
+    margin-bottom: 10px;
+}
+p
+{
+    line-height: 1.6rem;
+    margin-bottom: 20px;
+}
+.action
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.active
+{
+    opacity: 1;
+    pointer-events: auto;
+}
+.modal__wrapper.active .modal__container, .modal__wrapper2.active .modal__container2, .modal__wrapper3.active .modal__container3, .modal__wrapper4.active .modal__container4
+{
+    transform: translateY(0px);
+
+}
